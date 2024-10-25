@@ -48,6 +48,6 @@ RUN chmod +x \
   /app/x-ui \
   /usr/bin/x-ui
 
-VOLUMES [ "/etc/x-ui" ]
+VOLUME [ "/etc/x-ui" ]
 CMD [ "./x-ui" ]
 ENTRYPOINT [ "/app/DockerEntrypoint.sh" ]
